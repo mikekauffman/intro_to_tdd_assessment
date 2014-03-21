@@ -5,3 +5,4 @@ class PrimeNum
     Prime.prime?(number)
   end
 end
+
