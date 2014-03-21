@@ -8,4 +8,10 @@ describe PrimeNum do
     actual = number.prime_number?(85)
     expect(actual).to eq expected
   end
+  it "determines if a number is a prime number" do
+    number = PrimeNum.new
+    expected = true
+    actual = number.prime_number?(17)
+    expect(actual).to eq expected
+  end
 end
